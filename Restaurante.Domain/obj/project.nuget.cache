@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "/vruFPr3exszRHtUaK3DCvy5zg12i3XsS592c2dP9bjRbygRrwSzx4usLIqaDZ0I5OGLHhqVBvfy/NXVt9Nn1g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domain\\Restaurante.D.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto Restaurante.Shared não é compatível com netstandard2.0 (.NETStandard,Version=v2.0). O projeto Restaurante.Shared dá suporte a: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "Restaurante.Shared",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}
