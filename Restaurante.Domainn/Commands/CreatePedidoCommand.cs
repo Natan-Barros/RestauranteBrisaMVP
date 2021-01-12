@@ -9,7 +9,7 @@ namespace Restaurante.Domain.Commands
     {
         public int NumeroMesa { get; set; }
         public string NomeCliente { get; set; }
-        public List<int> NumeroItem { get; set; }
+        public List<int> NumerosItens { get; set; }
 
     }
 }

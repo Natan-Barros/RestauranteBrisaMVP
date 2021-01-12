@@ -16,5 +16,7 @@ namespace Restaurante.Domain
             this.contexto = contexto;
             this.dbSet = contexto.Set<T>();
         }
+
+
     }
 }

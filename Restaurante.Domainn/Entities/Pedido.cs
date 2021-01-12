@@ -6,7 +6,7 @@ namespace Restaurante.Domain.Entities
 {
     public class Pedido : Entidade
     {
-        public Pedido(Mesa mesa) 
+        public Pedido(Mesa mesa)
         {
             Mesa = mesa;
             Itens = new List<Item>();
@@ -22,11 +22,19 @@ namespace Restaurante.Domain.Entities
 
             if (string.IsNullOrEmpty(item.Nome))
                 throw new ArgumentException("Nome do item deve ser preenchida");
-            
+
             if (item.Preco < 0.0m)
                 throw new ArgumentException("Preco é invalido");
 
             Itens.Add(item);
+        }
+
+        public void AdicionarItens(List<Item> itens)
+        {
+            foreach (var item in itens)
+            {
+                AdicionarItem(item);
+            }
         }
 
         public decimal TotalPedido()
@@ -37,10 +45,10 @@ namespace Restaurante.Domain.Entities
             {
                 precoTotal += item.Preco;
             }
-            
+
             return precoTotal;
         }
 
-     
+
     }
 }
