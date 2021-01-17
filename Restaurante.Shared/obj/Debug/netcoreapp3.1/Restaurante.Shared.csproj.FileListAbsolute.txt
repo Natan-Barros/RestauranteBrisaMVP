@@ -1,9 +1,9 @@
 C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\bin\Debug\netcoreapp3.1\Restaurante.Shared.deps.json
 C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\bin\Debug\netcoreapp3.1\Restaurante.Shared.dll
 C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\bin\Debug\netcoreapp3.1\Restaurante.Shared.pdb
-C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\obj\Debug\netcoreapp3.1\Restaurante.Shared.csprojAssemblyReference.cache
 C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\obj\Debug\netcoreapp3.1\Restaurante.Shared.AssemblyInfoInputs.cache
 C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\obj\Debug\netcoreapp3.1\Restaurante.Shared.AssemblyInfo.cs
 C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\obj\Debug\netcoreapp3.1\Restaurante.Shared.csproj.CoreCompileInputs.cache
 C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\obj\Debug\netcoreapp3.1\Restaurante.Shared.dll
 C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\obj\Debug\netcoreapp3.1\Restaurante.Shared.pdb
+C:\Users\natan.barros\source\repos\Restaurante.Domain\Restaurante.Shared\obj\Debug\netcoreapp3.1\Restaurante.Shared.csprojAssemblyReference.cache

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Jy8p3L68L2nl4U+1ZFosJSxFkbGz0K6mykuDjd/YAPeL/b8WSpB2igk0wXbfLFYj0GzSi367JMZprwerekxc4A==",
+  "dgSpecHash": "OKc4U7g4FrLeLk2HP74eoKo94id2CXUuMF6Z2v4czUD9hdJFvAAnaAP/wwVe22W6tt7qD8+wTKHBV7k8sNGeRQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante\\Restaurante.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.1\\microsoft.entityframeworkcore.5.0.1.nupkg.sha512",
-    "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.1\\microsoft.entityframeworkcore.abstractions.5.0.1.nupkg.sha512",
-    "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.1\\microsoft.entityframeworkcore.analyzers.5.0.1.nupkg.sha512",
+    "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.2\\microsoft.entityframeworkcore.5.0.2.nupkg.sha512",
+    "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.2\\microsoft.entityframeworkcore.abstractions.5.0.2.nupkg.sha512",
+    "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.2\\microsoft.entityframeworkcore.analyzers.5.0.2.nupkg.sha512",
     "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
@@ -17,7 +17,7 @@
     "C:\\Users\\natan.barros\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\natan.barros\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\natan.barros\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\natan.barros\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+    "C:\\Users\\natan.barros\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

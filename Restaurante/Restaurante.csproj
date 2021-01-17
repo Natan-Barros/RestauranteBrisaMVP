@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Restaurante.Domainn\Restaurante.Domain.csproj" />
+    <ProjectReference Include="..\Restaurante.Domain\Restaurante.Domain.csproj" />
   </ItemGroup>
 
 </Project>

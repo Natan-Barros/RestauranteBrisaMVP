@@ -4,14 +4,14 @@
     "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante\\Restaurante.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domainn\\Restaurante.Domain.csproj": {
+    "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domain\\Restaurante.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domainn\\Restaurante.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domain\\Restaurante.Domain.csproj",
         "projectName": "Restaurante.Domain",
-        "projectPath": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domainn\\Restaurante.Domain.csproj",
+        "projectPath": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domain\\Restaurante.Domain.csproj",
         "packagesPath": "C:\\Users\\natan.barros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domainn\\obj\\",
+        "outputPath": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natan.barros\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,7 +46,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -146,8 +152,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domainn\\Restaurante.Domain.csproj": {
-                "projectPath": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domainn\\Restaurante.Domain.csproj"
+              "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domain\\Restaurante.Domain.csproj": {
+                "projectPath": "C:\\Users\\natan.barros\\source\\repos\\Restaurante.Domain\\Restaurante.Domain\\Restaurante.Domain.csproj"
               }
             }
           }
