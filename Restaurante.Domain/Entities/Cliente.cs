@@ -6,17 +6,14 @@ namespace Restaurante.Domain.Entities
 {
     public class Cliente : Entidade
     {
-        public Cliente(string nome, Mesa mesa) 
+
+
+        public Cliente(string nome) 
         {
             if (string.IsNullOrEmpty(nome))
                 throw new ArgumentException("Nome deve ser preenchido");
-
-            if (mesa.Status == Enums.EStatus.Livre)
-                mesa.OcuparMesa();
             
             Nome = nome;
-            Mesa = mesa;
-            Mesa.AdicionarCliente(this);
         }
 
         public string Nome { get; private set; }
@@ -26,9 +23,14 @@ namespace Restaurante.Domain.Entities
 
         public Pedido FazerPedido()
         {
-            Pedido = new Pedido(Mesa);
+            Pedido = new Pedido();
 
             return Pedido;
+        }
+
+        public void OcuparMesa(Mesa mesa)
+        {
+            Mesa = mesa;
         }
 
     }

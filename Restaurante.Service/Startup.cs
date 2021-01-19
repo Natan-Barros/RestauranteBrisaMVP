@@ -6,6 +6,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Restaurante.Domain;
+using Restaurante.Service.Services;
 
 namespace Restaurante.Service
 {
@@ -23,7 +25,7 @@ namespace Restaurante.Service
             services.AddGrpc();
             string ConnectionString = Configuration.GetConnectionString("connectionString");
 
-            services.AddDbContext<ApplicationContext>(op => op.UseSqlServer(ConnectionString));
+            services.AddDbContext<ApplicationContext>(op => op.UseSqlServer(ConnectionString, b => b.MigrationsAssembly("Restaurante.Service")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,7 +40,7 @@ namespace Restaurante.Service
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<GreeterService>();
+                endpoints.MapGrpcService<PedidoSvcgRPC>();
 
                 endpoints.MapGet("/", async context =>
                 {

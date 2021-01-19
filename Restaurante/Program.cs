@@ -8,8 +8,12 @@ namespace Restaurante
         static void Main(string[] args)
         {
             var mesa = new Mesa(2);
-            var natan = new Cliente("Natan", mesa);
-            var marcos = new Cliente("Marcos", mesa);
+            var natan = new Cliente("Natan");
+            var marcos = new Cliente("Marcos");
+
+
+            mesa.AdicionarCliente(natan);
+            mesa.AdicionarCliente(marcos);
 
 
             var xBacon = new Item("cebola, carne de hamburguer, bacon e pão bolo", "X-Bacon", 15.0m, 1);

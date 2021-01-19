@@ -6,14 +6,12 @@ namespace Restaurante.Domain.Entities
 {
     public class Pedido : Entidade
     {
-        public Pedido(Mesa mesa)
+        public Pedido()
         {
-            Mesa = mesa;
             Itens = new List<Item>();
         }
 
         public IList<Item> Itens { get; private set; }
-        public Mesa Mesa { get; private set; }
 
         public void AdicionarItem(Item item)
         {

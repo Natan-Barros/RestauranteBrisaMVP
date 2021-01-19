@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "Restaurante.Service.Services";
+
+package Pedido;
+
+service PedidoSvc {
+	rpc FazerPedido (PedidoRequest) returns (PedidoResponse);
+}
+
+message PedidoResponse {
+	bool sucesso = 1;
+	string mensagem = 2;
+}
+
+message PedidoRequest {
+	int32 numeroMesa = 1; 
+	string nomeCliente = 2;
+	repeated int32 numerosItens = 3;
+}

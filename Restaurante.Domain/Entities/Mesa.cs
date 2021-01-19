@@ -46,7 +46,11 @@ namespace Restaurante.Domain.Entities
             {
                 throw new ArgumentException("Nome deve ser preenchido");
             }
-     
+
+            if (Status != EStatus.Ocupado)
+                OcuparMesa();
+
+            cliente.OcuparMesa(this);
             Clientes.Add(cliente);
         }
 

@@ -1,7 +1,7 @@
 ﻿using Restaurante.Domain.Commands;
 using Restaurante.Domain.Entities;
+using Restaurante.Domain.Repositories;
 using Restaurante.Shared.Commands;
-using Restaurante.Shared.Repository;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,16 +19,16 @@ namespace Restaurante.Domain.Handlers
             _PedidoRepository = pedidoRepository;
         }
 
-        public ICommandResult Handle(CreatePedidoCommand command)
+        public CommandResult Handle(CreatePedidoCommand command)
         {
-            var mesa = new Mesa(command.NumeroMesa);
-            var cliente = new Cliente(command.NomeCliente, mesa);
+            var cliente = new Cliente(command.NomeCliente);
 
             var pedido = cliente.FazerPedido();
 
             List<Item> itens = _ItemRepository.BuscaPedidos(command.NumerosItens);
 
             pedido.AdicionarItens(itens);
+            _PedidoRepository.Salvar(pedido);
 
             return new CommandResult { Mensagem = "Total pedido: " + cliente.Pedido.TotalPedido(), Sucesso = true };
         }
